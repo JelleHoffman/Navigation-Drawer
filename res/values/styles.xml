@@ -13,18 +13,19 @@
     </style>
 
     <!-- Application theme. -->
-    <style name="AppTheme" parent="android:Theme.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
         <!-- colorPrimary is used for the default action bar background -->
-        <item name="colorPrimary">#2196F3</item>
+        <item name="android:colorPrimary">#2196F3</item>
 
         <!-- colorPrimaryDark is used for the status bar -->
-        <item name="colorPrimaryDark">#125285</item>
+        <item name="android:colorPrimaryDark">#125285</item>
 
         <!-- colorAccent is used as the default value for colorControlActivated
              which is used to tint widgets -->
         <!-- <item name="colorAccent">#fff</item> -->
 
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
         
     </style>
     <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
